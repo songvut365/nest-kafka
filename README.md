@@ -1,4 +1,9 @@
-# Project: Order Processing Service
+# Project: Nest.js Kafka
+
+## How to run
+```
+npm run start
+```
 
 ## Workflow
 1. Consume order requests from the topic: `order.request`.
