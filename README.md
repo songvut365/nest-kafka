@@ -1,4 +1,4 @@
-# Project: Nest.js Kafka
+# Project: NestJS and Kafka
 
 ## How to run
 ```
