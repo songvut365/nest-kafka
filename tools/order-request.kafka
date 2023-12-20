@@ -1,0 +1,20 @@
+PRODUCER order-request
+topic: order.request
+headers: X-Request-Id={{random.uuid}}
+{
+    "orderId": "{{random.uuid}}",
+    "customerId": "24a906b1-8368-445f-9f6f-6fd7d9cdac07",
+    "items": [
+        {
+            "productId": "f4d6a7dc-7c62-400a-8c52-b1d0edbd354a",
+            "amount": 5
+        },
+        {
+            "productId": "c30bbfe3-b29e-4fa4-b24b-62756eeadc13",
+            "amount": 5
+        }
+    ],
+    "timestamp": "17/12/2023 01:44:38"
+}
+
+###
